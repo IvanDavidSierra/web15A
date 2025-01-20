@@ -1,0 +1,45 @@
+/* 
+Paleta de colores 
+#ffffff 
+#feb338
+#a41307
+#000000
+#fdfff00d
+*/ 
+
+
+/*selector universal*/
+* { 
+  margin: 0;
+  padding: 0;
+  /*Acomoda el tamaño de la caja según el ancho y alto establecido sin aumentat*/
+  box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito", serif;
+}
+.header{
+    width: 100%;
+    height: calc(100vh - 80px); /* usualmente se utiliza auto */
+    background-color: #01011d;
+    background-image: linear-gradient(50deg, #fdfff00d 60%, #a41407ad 40%), url(../assets/img/road-1072821_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /* padding: 0.1px; */
+    
+    .title{
+        background-color: #e7dadfe0;
+        width: 30%;
+        height: 100px;
+        margin: auto;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 300;
+        color: #a41307;
+        margin-top: calc(30vh - 50px);
+    }
+}
+
