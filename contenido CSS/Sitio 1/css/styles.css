@@ -10,36 +10,147 @@ Paleta de colores
 
 /*selector universal*/
 * { 
-  margin: 0;
-  padding: 0;
-  /*Acomoda el tamaño de la caja según el ancho y alto establecido sin aumentat*/
-  box-sizing: border-box;
-}
-
-body{
-    font-family: "Nunito", serif;
-}
-.header{
-    width: 100%;
-    height: calc(100vh - 80px); /* usualmente se utiliza auto */
-    background-color: #01011d;
-    background-image: linear-gradient(50deg, #fdfff00d 60%, #a41407ad 40%), url(../assets/img/road-1072821_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    /* padding: 0.1px; */
-    
-    .title{
-        background-color: #e7dadfe0;
-        width: 30%;
-        height: 100px;
-        margin: auto;
-        font-size: 3rem;
-        text-align: center;
-        font-weight: 300;
-        color: #a41307;
-        margin-top: calc(30vh - 50px);
-    }
-}
+    margin: 0;
+    padding: 0;
+    /*Acomoda el tamaño de la caja según el ancho y alto establecido sin aumentat*/
+    box-sizing: border-box;
+  }
+  
+  body{
+      font-family: "Nunito", serif;
+  }
+  .header{
+      width: 100%;
+      height: calc(100vh - 80px); /* usualmente se utiliza auto */
+      background-color: #01011d;
+      background-image: linear-gradient(50deg, #fdfff00d 60%, #a41407ad 40%), url(../assets/img/road-1072821_1280.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      padding: 0.1px;
+      
+      .title{
+          background-color: #e7dadfe0;
+          width: 30%;
+          height: 100px;
+          margin: auto;
+          font-size: 3rem;
+          text-align: center;
+          font-weight: 300;
+          color: #a41307;
+          margin-top: calc(30vh - 50px);
+      }
+  }
+  
+  .menu{
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      font-size: 15px;
+      a{
+          color: #8e4e00;
+      }
+      ul > li{
+          list-style: none;
+          display: inline-block;   
+          padding: 2% 4%;
+          background-color: #e7dadfc3;
+          margin-top: 2%;
+          border-radius: 15px;
+      }
+  }
+  
+  .enter{
+      text-align: right;
+      padding-right: 3%;
+      margin-top: 3%;
+      .login{
+          list-style: none;
+          display: inline-block;
+          padding: 3%;
+          background-color: #e7dadfc3;
+          color: #a41307;
+          text-transform: lowercase;
+          border-radius:16px;
+          cursor: pointer;
+          text-decoration: underline;
+          font-size: 19px;
+          font-weight: 800;
+  
+          a:visited{
+              text-decoration: none;
+          }
+      }
+  }
+  
+  .container{
+      background: linear-gradient(50deg, #ffffff, #feb338);
+      padding: 1.5% 0;
+  }
+  
+  .section-page{
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+  .legend{
+      text-align: left;
+      padding: 1%;
+  }
+  
+  .sub-title{
+      text-align: center;
+      letter-spacing: 3px;
+      text-shadow: 7px 5px 5px #732626; 
+  }
+  
+  
+  .img-s1{
+      width: 45%;
+      height: 200px;
+      object-fit: cover;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      border-radius: 10px;
+  }
+  
+  .footer{
+      width: 100%;
+      height: 300px;
+      background: linear-gradient(45deg, #732626, #a41407 60%, #8a4e00);
+      padding: 0.1%;
+  }
+  
+  .footer a{
+      color: #d2d7de;
+      padding: 2%;
+  }
+  
+  .text-nets{
+      margin: 0 auto;
+      text-align: center;
+      font-size: 20px;
+      padding: 2%;
+      width: 100%;
+      color: #d2d7de;
+  }
+  
+  
+  .nets{
+      width: 62%;
+      display: inline-block;
+      text-align: end;
+      font-size: 35px;
+  }
+  
+  .copyright{
+      margin-top: 20px;
+      height: 43%;
+      width: 100%;
+      background: linear-gradient(45deg, #f3f3f344, #8a4e0050);
+      text-align: center;
+      color: #d2d7de;
+      padding: 3%;
+  }
 
