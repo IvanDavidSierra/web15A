@@ -21,7 +21,7 @@ Paleta de colores
   }
   .header{
       width: 100%;
-      height: calc(100vh - 80px); /* usualmente se utiliza auto */
+      height: calc(100vh - 200px); /* usualmente se utiliza auto */
       background-color: #01011d;
       background-image: linear-gradient(50deg, #fdfff00d 60%, #a41407ad 40%), url(../assets/img/road-1072821_1280.jpg);
       background-repeat: no-repeat;
@@ -39,7 +39,10 @@ Paleta de colores
           text-align: center;
           font-weight: 300;
           color: #a41307;
-          margin-top: calc(30vh - 50px);
+          margin-top: calc(30vh - 200px);
+          border-radius: 15px;
+          padding-top: 1%;
+          box-shadow: 1px 4px 10px #01011d;
       }
   }
   
@@ -50,14 +53,22 @@ Paleta de colores
       font-size: 15px;
       a{
           color: #8e4e00;
+          text-decoration: none;
       }
       ul > li{
           list-style: none;
           display: inline-block;   
           padding: 2% 4%;
           background-color: #e7dadfc3;
-          margin-top: 2%;
+          margin-top: 4%;
+          margin-left: 2%;
+          margin-bottom: 4%;
           border-radius: 15px;
+          box-shadow: 1px 4px 10px #732626;
+          font-size: 18px;
+      }
+      a:visited{
+        text-decoration: none;
       }
   }
   
@@ -68,20 +79,18 @@ Paleta de colores
       .login{
           list-style: none;
           display: inline-block;
-          padding: 3%;
+          padding: 1%;
           background-color: #e7dadfc3;
           color: #a41307;
-          text-transform: lowercase;
+          /*text-transform: lowercase;*/
           border-radius:16px;
           cursor: pointer;
-          text-decoration: underline;
           font-size: 19px;
           font-weight: 800;
-  
-          a:visited{
-              text-decoration: none;
-          }
       }
+      a, a:visited{
+        text-decoration: none;
+    }
   }
   
   .container{
@@ -94,15 +103,31 @@ Paleta de colores
       text-align: center;
   }
   
+  .sub-nav{
+    display: flex;
+  }
+
+  .roses, .tulips, .orchids, .sunflower{
+    align-items: center;
+    flex-direction: row;
+  }
+
+
   .legend{
       text-align: left;
-      padding: 1%;
+      padding: 2%;
+      margin-left: 5%;
+      margin-right: 4%;
+      text-align: justify;
   }
   
   .sub-title{
       text-align: center;
-      letter-spacing: 3px;
-      text-shadow: 7px 5px 5px #732626; 
+      text-shadow: 2px 5px 5px #732626; 
+  }
+
+  .section-title{
+    font-size: 20px;
   }
   
   
